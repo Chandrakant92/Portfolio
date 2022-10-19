@@ -1,0 +1,31 @@
+
+.navbar {
+    background-color: rgb(211, 225, 225);
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+.scroll{
+    background-color: blueviolet;
+}
+.navtag{
+    display: flex;
+    text-align: center;
+       justify-content: center;
+}
+.nava{
+    cursor: pointer;
+    padding: 1%;
+    font-size: large;
+    font-family: inherit;
+    font-weight: 600;
+}
+.nava:hover{
+    color: rgb(149, 11, 229);
+}
+.scroll{
+    background-color: brown;
+    position: relative;
+}

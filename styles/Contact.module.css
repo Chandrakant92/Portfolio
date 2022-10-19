@@ -1,0 +1,74 @@
+.box3 {
+
+    background: #a246ff;
+    overflow: hidden;
+    text-align: center;
+    margin: 5%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 6px #090b6f85;
+    padding: 3%;
+}
+
+.form label {
+    font-size: larger;
+    font-weight: 600;
+    /* text-align: left; */
+}
+
+.d1 {
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.name {
+    font-size: 20px;
+    border: none;
+    background-color: #19191900;
+    outline: none;
+    font-weight: 500;
+    border-bottom: 2px solid #000000;
+}
+
+.btn {
+    margin-top: 5%;
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    background: linear-gradient(to right,#1345e6 0%,#ed239f 51%,#1345e6 100%);
+    color: #fff;
+    margin-top: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 50px;
+       padding: 0 38px;
+    outline: none!important;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    border-radius:  25px;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px 6px #fafafa85;
+
+}
+.button:active {
+
+    background: linear-gradient(to left,#1345e6 0%,#ed239f 100%,#1345e6 0%);
+    color: #000000;
+  }
+
+.contact {
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.bio p {
+    font-size: 25px;
+    padding: 2%;
+    font-weight: 500;
+}
+

@@ -1,0 +1,79 @@
+.Fotter{
+        background-color: rgb(36, 0, 72);
+     z-index: -1;
+}
+.Icons {
+    display: flex;
+}
+.info{
+    width: 20%;
+    margin-left: 2%;
+    color: aliceblue;
+    text-align: center;
+    padding: 1%;
+    /* padding-left: 3%; */
+}
+
+.fotp{
+    padding-top: 2%;
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 600;
+}
+.FotterC{
+    margin-left: 2%;
+    width: 70%;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    }
+/* .FotterC div{
+
+   
+justify-content: center; 
+
+} */
+
+.icon{
+    
+    
+}
+.FontAwesomeIcon{
+    width: 20%;
+   position: relative;
+     /* z-index: 2; */
+     margin: 2%;
+    color: rgb(255, 255, 255);
+    transition: all .5s ease 0s;
+ }
+.FontAwesomeIcon:hover{
+    /* width: 21%; */
+
+    background: linear-gradient(to right,#1345e6 0%,#ed239f 100%,#1345e6 100%);
+     padding: 2%;
+     border-radius: 50%;
+    /* color: black; */
+}
+.FotterB{
+    color: aliceblue;
+    text-align: center;
+    padding: 1%;
+background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 450px) {
+     .FotterC{
+        display: block;
+        margin: auto;
+       
+     }
+     .FotterC div{
+       text-align: center;
+     }
+     .FontAwesomeIcon{
+        font-size: medium;
+        width: 10%;
+     }
+
+}
