@@ -1,40 +1,60 @@
-.box3 {
-
-    background: #a246ff;
-    overflow: hidden;
-    text-align: center;
-    margin: 5%;
-    border-radius: 20px;
-    box-shadow: 0 0 20px 6px #090b6f85;
-    padding: 3%;
+.body{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  box-shadow: 0 0 2px 0px #000000ca;
 }
 
-.form label {
-    font-size: larger;
+.footerOuter {
+    /* margin-top: 80px; */
+  }
+  .container {
+    width: 80%;
+    /* max-width: 1140px; */
+    margin: auto;
+  }
+    .getFormInner {
+    display: block;
+    padding: 50px 40px;
+    background: rgb(154, 0, 192);
+    box-shadow: -4px -2px 20px -7px #cfd5df;
+  }
+  .Input {
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    color: #333;
+    margin: 1%;
+    height: 42px;
+    padding: 0 0 0 20px;
+    width: 100%;
+    outline: 0; 
+    font-size: 15px;
+    font-weight: 300;
+
+  }
+ 
+  .gridFull {
+    margin: 20px 0;
+  }
+  .textarea {
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    color: #333;
+    padding: 12px 0 0 20px;
+    width: 100%;
+    outline: 0;
+    margin: 1%;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .getFormInnerText h3 {
+    color: #333;
+    font-size: 26px;
     font-weight: 600;
-    /* text-align: left; */
-}
-
-.d1 {
-    display: flex;
-    margin-top: 3%;
-    justify-content: center;
-}
-
-.name {
-    font-size: 20px;
-    border: none;
-    background-color: #19191900;
-    outline: none;
-    font-weight: 500;
-    border-bottom: 2px solid #000000;
-}
-
-.btn {
-    margin-top: 5%;
-    text-align: center;
-}
-.button {
+    margin-bottom: 40px;
+  }
+  .Submit {
     display: inline-block;
     background: linear-gradient(to right,#1345e6 0%,#ed239f 51%,#1345e6 100%);
     color: #fff;
@@ -51,24 +71,55 @@
     text-transform: uppercase;
     border-radius:  25px;
     background-size: 200% auto;
-    box-shadow: 0 0 20px 6px #fafafa85;
-
-}
-.button:active {
+    box-shadow: 0 0 20px 6px #ffffffca;
+  } 
+  
+  .Submit:active {
 
     background: linear-gradient(to left,#1345e6 0%,#ed239f 100%,#1345e6 0%);
     color: #000000;
   }
+  .icon{
+     margin-top: 4%;
+    /* display: flex;  */
+  }
+  .FontAwesomeIcon{
+   
+    /* width: 9%; */
+    /* margin: 2%; */
+  }
+  .section{
+    padding: 5%;
+    
+  }
+  .MyInfo{
 
-.contact {
-    font-weight: bolder;
-    font-size: 20px;
-
-}
-
-.bio p {
-    font-size: 25px;
-    padding: 2%;
+    width: 150%;
+    font-size: 24px;
+    font-weight: 300;
+  margin-top: 25%;
+    color: #4a015c;
+ 
+    /* justify-content: space-around; */
+  }
+  .p1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
     font-weight: 500;
-}
-
+    position: relative;
+    margin-left: 9%;
+    margin-bottom: 10px
+  }
+ .text{
+  position: static;
+  margin-left:3%;
+ }
+ .p3{
+  color: white;
+  font-weight: 500;
+  font-size: larger;
+ }
+ .p2{
+  font-weight: 500;
+  font-size: larger;
+ }

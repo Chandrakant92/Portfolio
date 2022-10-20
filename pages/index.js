@@ -5,6 +5,11 @@ import Link from  'next/link'
 import Pic1 from '../assets/xhome-right.png.pagespeed.ic.F5fc5uJEZ3.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube, faLinkedin, faGithub, faTwitter, faFacebook, faInstagram, faFacebookMessenger} from '@fortawesome/free-brands-svg-icons';
+import About from './Component/About'
+import Services from './Component/Services'
+import Experience from './Component/Experience'
+import Contact from './Component/Contact'
+
 
 
 export default function Home() {
@@ -88,6 +93,11 @@ export default function Home() {
         
       </div>
 
+      <About/>
+      <Services/>
+      <Experience/>
+  <Contact/>
+  
     </div>
   )
 }

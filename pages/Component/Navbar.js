@@ -43,10 +43,10 @@ const Navbar = () => {
 
         <ul className={styles.navtag}>
           <div className={styles.nava} onClick={() => router.push('/')}>Home</div>
-          <div className={styles.nava} onClick={() => router.push('/')}>About</div>
-          <div className={styles.nava} onClick={() => router.push('/')}>Services</div>
-          <div className={styles.nava} onClick={() => router.push('/')}>Experience</div>
-          <div className={styles.nava} onClick={() => router.push('/')}>Contact</div>
+          <div className={styles.nava} onClick={() => router.push('/Component/About')}>About</div>
+          <div className={styles.nava} onClick={() => router.push('/Component/Services')}>Services</div>
+          <div className={styles.nava} onClick={() => router.push('/Component/Experience')}>Development</div>
+          <div className={styles.nava} onClick={() => router.push('/Component/Contact')}>Contact</div>
         </ul>
         
       </nav>
