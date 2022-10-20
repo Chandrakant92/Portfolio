@@ -1,12 +1,23 @@
 
 .navbar {
-    background-color: rgb(211, 225, 225);
+    background-color: aliceblue;
     width: 100%;
     position: fixed;
     top: 0%;
     z-index: 1;
     transition: all 0.3s ease;
+    box-shadow: 0 1px 12px 2px #42577adf;
 }
+@media (prefers-color-scheme: dark) {
+    .navbar{
+      color-scheme: dark;
+    }
+    .navbar {
+      color: white;
+      background: black;
+      box-shadow: 0 1px 12px 2px #ad23f7df;
+    }
+  }
 .scroll{
     background-color: blueviolet;
 }

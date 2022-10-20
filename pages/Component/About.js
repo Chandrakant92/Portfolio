@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../../styles/About.module.css'
 import Image from 'next/image'
-import Pic2 from '../../assets/220367988.jpg'
+import Pic2 from '../../assets/xabout-us.png.pagespeed.ic.nAUE9eqUQI.jpg'
 
 
 const About = () => {
@@ -20,7 +20,10 @@ const About = () => {
           <div className={styles.bio}>
 
             <p className={styles.p1}>About me</p>
-            <p className={styles.p2}>COMPUTER PROGRAM & SOFTWARE DEVELOPER</p>
+            <p className={styles.p2}>LET’S
+              INTRODUCE ABOUT
+              MYSELF</p>
+            <p className={styles.p3}>(COMPUTER PROGRAM & SOFTWARE DEVELOPER)</p>
             <p className={styles.p3}>
               I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their device.
               <br />
@@ -28,7 +31,7 @@ const About = () => {
             <p className={styles.button2} ><a href="../../assets/ChandrakantGawali Resume.pdf" rel="noreferrer" target="_blank">DOWOANLOAD CV</a></p>
           </div>
         </div>
-        <hr />
+      
         <div>
         </div>
       </div>

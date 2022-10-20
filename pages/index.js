@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from  'next/link'
-import Pic1 from '../assets/xhome-right.png.pagespeed.ic.9EvmcO3oQb.jpg'
+import Pic1 from '../assets/xhome-right.png.pagespeed.ic.F5fc5uJEZ3.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube, faLinkedin, faGithub, faTwitter, faFacebook, faInstagram, faFacebookMessenger} from '@fortawesome/free-brands-svg-icons';
 
