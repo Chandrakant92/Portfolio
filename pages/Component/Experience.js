@@ -8,7 +8,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const Experience = () => {
+const project1=`" I have build this news website site to preserve human beings knowledgeable so that humans can remain up to date and understand the present day happenings in the world. I used NextJs which is React framework for this website and I constructed this website totally from scratch."`;
 
+const project2=`" I have construct the mobile virtual assistant that can aid users
+by taking activities using speech recognition, natural
+language processing, and speech synthesis."`;
+
+const project3=`" I have create  calculator is a device that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, multiplication and division mathematical calculations."`;
   // let circularProgress =document.querySelector(".CirculrProgress"),
   //     progressValue=document.querySelector(".progressValue");
 
@@ -124,7 +130,7 @@ const Experience = () => {
           <div className={styles.Project}>
             <div className={styles.projectD}>
               <h4>Todays News</h4>
-              <p>" I have build this news website site to preserve human beings knowledgeable so that humans can remain up to date and understand the present day happenings in the world. I used NextJs which is React framework for this website and I constructed this website totally from scratch."</p>
+              <p>{project1}</p>
             </div>
             <div className={styles.image1}>
               <div>
@@ -136,9 +142,7 @@ const Experience = () => {
           <div className={styles.Project1}>
             <div className={styles.projectD}>
               <h4>Voice Assistant</h4>
-              <p>" I have construct the mobile virtual assistant that can aid users
-                by taking activities using speech recognition, natural
-                language processing, and speech synthesis." </p>
+              <p>{project2}</p>
             </div>
             <div className={styles.image1}>
               <div>
@@ -150,7 +154,7 @@ const Experience = () => {
           <div className={styles.Project}>
             <div className={styles.projectD}>
               <h4>Calculator</h4>
-              <p> " I have create  calculator is a device that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, multiplication and division mathematical calculations."</p>
+              <p>{project3} </p>
             </div>
             <div className={styles.image1}>
               <div>
