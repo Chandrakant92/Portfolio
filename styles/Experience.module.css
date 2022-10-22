@@ -10,6 +10,10 @@
     padding: 3%;
    
 }
+.description{
+    font-size: 24px;
+    font-weight: 300;
+}
 .myproject{
     font-size: xx-large;
     font-weight: 700;
@@ -20,6 +24,7 @@
 .image1{
     overflow: hidden;
        border: solid;
+       border-style: outset;
     border-radius: 50%;
     /* justify-content: center; */
    /* z-index: 3; */
@@ -151,7 +156,9 @@
 }
 
 .Body{
-    border: solid;
+    border: rgb(58, 0, 112) solid 5px;
+    border-style: double;
+    border-radius: 20px;
     
 }
 .Project{

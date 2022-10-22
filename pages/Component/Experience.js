@@ -41,6 +41,7 @@ const project3=`" I have create  calculator is a device that performs arithmetic
       <div className={styles.Development}>
         <p className={styles.development}>Development</p>
         <p className={styles.heading}>My Skills</p>
+        <p></p>
         <section className={styles.section} id={styles.Section}>
           <div className={styles.MainContainer}>
             <h5 className={styles.SkillS}>Programming Language</h5>
@@ -124,12 +125,13 @@ const project3=`" I have create  calculator is a device that performs arithmetic
         </section>
 
         <br /><br /><br /><br /><br /><br /><br /><br />
-
+        <p className={styles.development}>Development</p>
         <p className={styles.myproject}>My Projecct</p>
+        <p  className={styles.description}>I am construct some awesome project that are help society, also for develop my skills</p>
         <div className={styles.Body}>
           <div className={styles.Project}>
             <div className={styles.projectD}>
-              <h4>Todays News</h4>
+              <h4>1. Todays News</h4>
               <p>{project1}</p>
             </div>
             <div className={styles.image1}>
@@ -141,7 +143,7 @@ const project3=`" I have create  calculator is a device that performs arithmetic
           {/*  */}
           <div className={styles.Project1}>
             <div className={styles.projectD}>
-              <h4>Voice Assistant</h4>
+              <h4>2. Voice Assistant</h4>
               <p>{project2}</p>
             </div>
             <div className={styles.image1}>
@@ -153,7 +155,7 @@ const project3=`" I have create  calculator is a device that performs arithmetic
           {/*  */}
           <div className={styles.Project}>
             <div className={styles.projectD}>
-              <h4>Calculator</h4>
+              <h4>3. Calculator</h4>
               <p>{project3} </p>
             </div>
             <div className={styles.image1}>
@@ -165,7 +167,7 @@ const project3=`" I have create  calculator is a device that performs arithmetic
           {/*  */}
           <div className={styles.Project1}>
             <div className={styles.projectD}>
-              <h4>Project Name</h4>
+              <h4>4. Project Name</h4>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, rerum sit neque numquam atque dolorem unde inventore explicabo sint dolorum consequatur labore quis </p>
             </div>
             <div className={styles.image1}>

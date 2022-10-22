@@ -1,22 +1,38 @@
 import React from 'react'
 import styles from '../../styles/Contact.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faLocation, faUser, faSms, faPhone, faMailBulk  } from '@fortawesome/free-solid-svg-icons';
+import {faLocation, faUser, faSms, faPhone, faMailBulk,  } from '@fortawesome/free-solid-svg-icons';
 import {faAndroid, faFacebookMessenger } from '@fortawesome/free-brands-svg-icons';
 
 
 const Aboutt = () => {
+    function clickMe() {
+        // if (!text || !email || !tel) {
+        //     alert("Please fill all boxes");
+        //     return;
+        // }
+        alert("Your Form is submitted");
+      }
     const name = `Chandrakant J Gawali`;
     const email = `chandrakantcjg92@gmail.com`;
     const mono = `+91-9960839899`;
     const add = `CQJG+5PF, Akola, Maharashtra, India. 444501`;
     return (
         <>
-            <div class={styles.body}>
+        <div>
+        <div className={styles.heading}>
+
+<p className={styles.p1}>Contact</p>
+<p className={styles.p4}>More About me </p>
+<p className={styles.p5}>Feel free to contact us...</p>
+</div>
+
+        </div>
+            <div className={styles.body}>
                 
                 <section className={styles.footerOuter}>
                     <div className={styles.container}>
-                        <div classNa={styles.container2}>
+                        <div className={styles.container2}>
                             <div >
                                 <div className={styles.getFormInner}>
                                     <div className={styles.getFormInnerText}>
@@ -30,8 +46,8 @@ const Aboutt = () => {
                                             <input className={styles.Input} type="tel" placeholder="Phone/Skype" />
                                         </div>
                                         <div className={styles.gridFull}>
-                                            <textarea class={styles.textarea} placeholder="Write Something..!" cols="30" rows="10"></textarea>
-                                            <input className={styles.Submit} type="submit" value="Submit" />
+                                            <textarea className={styles.textarea} placeholder="Write Something..!" cols="30" rows="10"></textarea>
+                                            <input className={styles.Submit} type="submit" value="Submit" onClick={clickMe} />
                                         </div>
                                     </form>
                                 </div>
@@ -39,9 +55,10 @@ const Aboutt = () => {
                         </div>
                     </div>
                 </section>
-                <section class={styles.section}>
-                   <p className={styles.p1}>Contact</p>
-                    <div class={styles.MyInfo}>
+                <section className={styles.section}>
+                   <p className={styles.p2}>Personal Information</p>
+                  
+                    <div className={styles.MyInfo}>
                         <div className={styles.icon}>
                             <FontAwesomeIcon className={styles.FontAwesomeIcon}
                                 icon={faUser}
@@ -74,8 +91,7 @@ const Aboutt = () => {
                         </div>                       
                     </div>
                 </section>
-                <p className={styles.p1}>Contact</p>
-               
+                
             </div >
         </>
     )

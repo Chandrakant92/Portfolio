@@ -16,9 +16,6 @@ function MyApp({ Component, pageProps }) {
 
   <Navbar/>
   <Component {...pageProps} />
-    {/* <About/> */}
-  {/* <Services/> */}
-  
   <Fotter/>
 
   </>

@@ -1,9 +1,9 @@
 .body{
   display: flex;
   flex-direction: row-reverse;
-  margin-top: 5%;
+  margin-left: 5%;
   margin-bottom: 3%;
-  box-shadow: 0 0 2px 0px #000000ca;
+  /* box-shadow: 0 0 2px 0px #000000ca; */
 }
 
 .footerOuter {
@@ -71,7 +71,7 @@
     text-transform: uppercase;
     border-radius:  25px;
     background-size: 200% auto;
-    box-shadow: 0 0 20px 6px #ffffffca;
+    box-shadow: 0 0 20px 6px #00004fca;
   } 
   
   .Submit:active {
@@ -85,29 +85,34 @@
   }
   .FontAwesomeIcon{
    
-    /* width: 9%; */
+    width: 4%;
     /* margin: 2%; */
   }
   .section{
     padding: 5%;
-    
+    margin-top: 5%;
+
   }
   .MyInfo{
 
-    width: 150%;
+    /* width: 150%; */
     font-size: 24px;
     font-weight: 300;
-  margin-top: 25%;
+  /* margin-top: 25%; */
     color: #4a015c;
  
     /* justify-content: space-around; */
+  }
+  .heading{
+    margin-left: 9%;
+    margin-top: 9%;
   }
   .p1{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 500;
     position: relative;
-    margin-left: 9%;
+  
     margin-bottom: 10px
   }
  .text{
@@ -122,4 +127,15 @@
  .p2{
   font-weight: 500;
   font-size: larger;
+ }
+ .p4{
+  font-size: xx-large;
+  font-weight: 700;
+margin-bottom: 0;
+
+text-transform: capitalize;
+ }
+ .p5{
+  font-size: 24px;
+  font-weight: 300;
  }
