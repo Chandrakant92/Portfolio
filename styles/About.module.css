@@ -9,6 +9,9 @@
     margin: 5%;
     /* width: fit-content; */
 }
+.bioMin{
+    display: none;
+}
 .p1{
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -61,7 +64,7 @@
 .MyImage{
     /* border: solid; */
     padding: 2%;
-    width: 3000px;
+    width: 500%;
         
 }
 @keyframes rotation{
@@ -71,5 +74,91 @@
   
     to{
       transform:rotate(12deg);
+    }
+  }
+  @media only screen and (max-width: 990px) {
+    .image1 {
+      float: none;
+    }
+    .bioMin{
+        display: block;
+        margin: 1%;
+    }
+    .bioMax{display:  none;}
+    .p1{
+        font-size: medium;
+    }
+    .p2{
+        font-size: xx-large;
+    }
+    .p3{
+        font-size: larger;
+    }
+    .button2{
+        font-size: small;
+        line-height: 40px;
+        padding:0  3%;
+    }
+    .box1{
+       display: block;
+    }
+    .MyImage{
+        width: 50%;
+    }
+    .container{
+        margin-top: 20%;
+    }
+  }
+
+  @media only screen and (max-width: 470px) {
+   
+    .bioMax{display:  none;}
+    .p1{
+        font-size: small;
+    }
+    .p2{
+        font-size: medium;
+    }
+    .p3{
+        font-size: small;
+    }
+    .button2{
+        font-size: x-small;
+        line-height: 30px;
+        padding:0  3%;
+    }
+    .box1{
+       display: block;
+    }
+   
+    .container{
+        margin-top: 20%;
+    }
+   
+  }
+
+  @media only screen and (max-width: 220px) {
+   
+    .bioMax{display:  none;}
+    .p1{
+        font-size: small;
+    }
+    .p2{
+        font-size: medium;
+    }
+    .p3{
+        font-size: small;
+    }
+    .button2{
+        font-size: xx-small;
+        line-height: 15px;
+        padding:0  3%;
+    }
+    .box1{
+       display: block;
+    }
+   
+    .container{
+        margin-top: 35%;
     }
   }

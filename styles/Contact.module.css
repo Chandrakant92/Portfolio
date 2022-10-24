@@ -6,9 +6,7 @@
   /* box-shadow: 0 0 2px 0px #000000ca; */
 }
 
-.footerOuter {
-    /* margin-top: 80px; */
-  }
+
   .container {
     width: 80%;
     /* max-width: 1140px; */
@@ -139,3 +137,79 @@ text-transform: capitalize;
   font-size: 24px;
   font-weight: 300;
  }
+
+ @media (prefers-color-scheme: dark) {
+  .MyInfo{
+    color-scheme: dark;
+  }
+  .MyInfo {
+    color: rgb(255, 0, 242);
+    
+  }
+}
+
+@media only screen and (max-width: 990px) {
+
+  .p1{
+    font-size: medium;
+}
+.p4{
+    font-size: xx-large;
+}
+.p5{
+    font-size: larger;
+}
+.text{
+  font-size: larger;
+}
+.body{
+   display: block;
+}
+.Submit{
+  padding: 0 6%;
+}
+}
+
+@media only screen and (max-width: 470px) {
+
+  .p1{
+    font-size: small;
+}
+.p4{
+    font-size: medium;
+}
+.p2{
+  font-size: medium;
+}
+.p3{
+  font-size: medium;
+}
+.p5{
+    font-size: small;
+}
+.text{
+  font-size: small;
+}
+.Submit{
+  line-height: 30px;
+  padding: 0 5%;
+  font-size: smaller;
+}
+}
+@media only screen and (max-width: 350px) {
+  .p1{
+    font-size: x-small;
+}
+.p2{
+    font-size: small;
+}
+.p3{
+    font-size: x-small;
+}
+.p4{
+    font-size: x-small;
+}
+  .Submit{
+    font-size: x-small;
+  }
+}

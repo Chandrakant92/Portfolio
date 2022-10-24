@@ -65,3 +65,56 @@
     background-color: #9b10d7;
     color: white;
 }
+
+@media only screen and (max-width: 990px) {
+    .p1{
+        font-size: medium;
+    }
+    .p2{
+        font-size: xx-large;
+    }
+    .p3{
+        font-size: larger;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    
+    .container{
+     display: block;
+     margin: 2%;
+    }
+    .box{
+        padding: 2%;
+
+    }
+    .pp1{
+        font-size: larger;
+    }
+    .pp2{
+        font-size: medium;
+    }
+    .pp3{
+        font-size: medium;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .p1{
+        font-size: small;
+    }
+    .p2{
+        font-size: medium;
+    }
+    .p3{
+        font-size: smaller;
+    }
+    .pp1{
+        font-size: medium;
+    }
+    .pp2{
+        font-size: small;
+    }
+    .pp3{
+        font-size: small;
+    }
+}

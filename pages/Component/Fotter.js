@@ -11,8 +11,8 @@ import { faYoutube, faLinkedin, faGithub, faGoogle } from '@fortawesome/free-bra
 const Fotter = () => {
     
     const text1 = ` © 2022 Copyright: `;
-    const text2 = ` Today'sNews.com `;
-    const text3 = ` All Rights Reserved`;
+    const text2 = ` ChandrakantGawali.com `;
+    const text3 = ` All Rights Reserved ❤️❤️❤️`;
     return (
         <>
 
@@ -25,7 +25,7 @@ const Fotter = () => {
                 </div>
                 <div className={styles.Icons}>
                     <div className={styles.info}>
-                    Follow Us For More..
+                    <p className={styles.fotp}> Follow Us For More...</p>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed magnam aspernatur, minus est debitis accusantium itaque nulla voluptate, maxime et repellat, delectus labore cumque aperiam unde maiores! Unde, accusamus illum!</p>
                     </div>
                     <div className={styles.FotterC}>
@@ -67,7 +67,7 @@ const Fotter = () => {
                 <hr></hr>
                 <div className={styles.FotterB}>
                     {text1}
-                    <a className={styles.textwhite} href="https://Today'sNews.com/"> {text2} </a>
+                    <a className={styles.textwhite} href="https://ChandrakantGawali.com/"> {text2} </a>
                     {text3}
                 </div>
 

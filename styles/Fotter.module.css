@@ -62,18 +62,27 @@ justify-content: center;
 background-color: rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (max-width: 450px) {
-     .FotterC{
-        display: block;
-        margin: auto;
-       
-     }
+@media only screen and (max-width: 1100px) {
+  .Icons{
+    display: block;
+    justify-content: center;
+  }
+  .info{
+    width: auto;
+  }
+}
+
+
+
+
+@media screen and (max-width: 350px) {
+     
      .FotterC div{
        text-align: center;
      }
      .FontAwesomeIcon{
-        font-size: medium;
-        width: 10%;
+        /* font-size: medium; */
+        width: 50%;
      }
 
 }

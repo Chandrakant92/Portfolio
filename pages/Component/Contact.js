@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from '../../styles/Contact.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faLocation, faUser, faSms, faPhone, faMailBulk,  } from '@fortawesome/free-solid-svg-icons';
-import {faAndroid, faFacebookMessenger } from '@fortawesome/free-brands-svg-icons';
+import {faLocation, faUser,  faPhone, faMailBulk,   } from '@fortawesome/free-solid-svg-icons';
+// import { } from '@fortawesome/free-brands-svg-icons';
 
 
 const Aboutt = () => {

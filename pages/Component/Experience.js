@@ -37,22 +37,26 @@ const project3=`" I have create  calculator is a device that performs arithmetic
 
   return (
     <>
+<div className={styles.body}>
+
 
       <div className={styles.Development}>
-        <p className={styles.development}>Development</p>
-        <p className={styles.heading}>My Skills</p>
+        <p className={styles.p1}>Development</p>
+        <p className={styles.p2}>My Skills</p>
         <p></p>
         <section className={styles.section} id={styles.Section}>
           <div className={styles.MainContainer}>
-            <h5 className={styles.SkillS}>Programming Language</h5>
+          
+
+            <p className={styles.SkillS}>Programming Language</p>
             <div className={styles.container}>
-              <p className={styles.text1}>Java</p>
+              <p className={styles.p3}>Java</p>
               <div className={styles.CirculrProgress1}>
                 <span className={styles.progressValue}> 96%</span>
               </div>
             </div>
             <div className={styles.container}>
-              <p className={styles.text1}>JavaScript</p>
+              <p className={styles.p3}>JavaScript</p>
               <div className={styles.CirculrProgress2}>
                 <span className={styles.progressValue}> 90%</span>
               </div>
@@ -60,13 +64,13 @@ const project3=`" I have create  calculator is a device that performs arithmetic
 
 
             <div className={styles.container}>
-              <p className={styles.text1}>Python</p>
+              <p className={styles.p3}>Python</p>
               <div className={styles.CirculrProgress3}>
                 <span className={styles.progressValue}> 70%</span>
               </div>
             </div>
             <div className={styles.container}>
-              <p className={styles.text1}> C & C++ </p>
+              <p className={styles.p3}> C & C++ </p>
               <div className={styles.CirculrProgress4}>
                 <span className={styles.progressValue}> 65%</span>
               </div>
@@ -74,13 +78,13 @@ const project3=`" I have create  calculator is a device that performs arithmetic
 
           </div>
           <section className={styles.AnimatedSkills}>
-            <h5 className={styles.SkillS}>Technical Skills </h5>
+            <p className={styles.SkillS}>Technical Skills </p>
             <div className={styles.wrapperS}>
               <div className={styles.containerS}>
                 {/*  */}
                 <div className={styles.skills}>
                   <div className={styles.details}>
-                    <span className={styles.text2}>HTML & CSS</span>
+                    <span className={styles.p4}>HTML & CSS</span>
                     <span>90%</span>
                   </div>
                   <div className={styles.bar}>
@@ -91,7 +95,7 @@ const project3=`" I have create  calculator is a device that performs arithmetic
                 {/*  */}
                 <div className={styles.skills}>
                   <div className={styles.details}>
-                    <span className={styles.text2}>Next Js</span>
+                    <span className={styles.p4}>Next Js</span>
                     <span>95%</span>
                   </div>
                   <div className={styles.bar}>
@@ -101,7 +105,7 @@ const project3=`" I have create  calculator is a device that performs arithmetic
                 {/*  */}
                 <div className={styles.skills}>
                   <div className={styles.details}>
-                    <span className={styles.text2}>Node js</span>
+                    <span className={styles.p4}>Node js</span>
                     <span>75%</span>
                   </div>
                   <div className={styles.bar}>
@@ -111,7 +115,7 @@ const project3=`" I have create  calculator is a device that performs arithmetic
                 {/*  */}
                 <div className={styles.skills}>
                   <div className={styles.details}>
-                    <span className={styles.text2}>MySql </span>
+                    <span className={styles.p4}>MySql </span>
                     <span>65%</span>
                   </div>
                   <div className={styles.bar}>
@@ -124,59 +128,68 @@ const project3=`" I have create  calculator is a device that performs arithmetic
           </section>
         </section>
 
-        <br /><br /><br /><br /><br /><br /><br /><br />
-        <p className={styles.development}>Development</p>
-        <p className={styles.myproject}>My Projecct</p>
-        <p  className={styles.description}>I am construct some awesome project that are help society, also for develop my skills</p>
+        <br /><br /><br ></br>
+        <p className={styles.p1}>Development</p>
+        <p className={styles.p2}>My Projecct</p>
+        <p  className={styles.p3}>I am construct some awesome project that are help society, also for develop my skills</p>
         <div className={styles.Body}>
           <div className={styles.Project}>
             <div className={styles.projectD}>
-              <h4>1. Todays News</h4>
-              <p>{project1}</p>
+              <p className={styles.pp4}>1. Todays News</p>
+              <p className={styles.pp3}>{project1}</p>
             </div>
             <div className={styles.image1}>
               <div>
                 <Image src={Pic1} alt="Picture of the Owner" />
+
               </div>
             </div>
+                <p className={styles.ppp3}>{project1}</p>
           </div>
           {/*  */}
           <div className={styles.Project1}>
             <div className={styles.projectD}>
-              <h4>2. Voice Assistant</h4>
-              <p>{project2}</p>
+              <p className={styles.pp4}>2. Voice Assistant</p>
+              <p className={styles.pp3}>{project2}</p>
             </div>
             <div className={styles.image1}>
               <div>
                 <Image src={Pic3} alt="Picture of the Owner" />
+
               </div>
             </div>
+                <p className={styles.ppp3}>{project2}</p>
           </div>
           {/*  */}
           <div className={styles.Project}>
             <div className={styles.projectD}>
-              <h4>3. Calculator</h4>
-              <p>{project3} </p>
+              <p className={styles.pp4}>3. Calculator</p>
+              <p className={styles.pp3}>{project3} </p>
             </div>
             <div className={styles.image1}>
               <div>
                 <Image src={Pic2} alt="Picture of the Owner" />
+
               </div>
             </div>
+                <p className={styles.ppp3}>{project3} </p>
           </div>
           {/*  */}
           <div className={styles.Project1}>
             <div className={styles.projectD}>
-              <h4>4. Project Name</h4>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, rerum sit neque numquam atque dolorem unde inventore explicabo sint dolorum consequatur labore quis </p>
+              <p className={styles.pp4}>4. Project Name</p>
+              <p className={styles.pp3}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, rerum sit neque numquam atque dolorem unde inventore explicabo sint dolorum consequatur labore quis </p>
             </div>
             <div className={styles.image1}>
               <div>
                 <Image src={Pic4} alt="Picture of the Owner" />
+
               </div>
             </div>
+                <p className={styles.ppp3}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, rerum sit neque numquam atque dolorem unde inventore explicabo sint dolorum consequatur labore quis </p>
           </div>
         </div>
+      </div>
       </div>
       <hr />
     </>
