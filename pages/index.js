@@ -84,7 +84,8 @@ export default function Home() {
         </div>
 
 
-
+       <br/>
+       <br/>
         <div className={styles.box}>
           {/* <div></div> */}
          <div className={styles.box1}>
@@ -97,17 +98,10 @@ export default function Home() {
          <p className={styles.point}>ADAPT</p>
          </div>
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-
+     <br/>
+     <br/>
+     <br/>
+       
       </div>
 
       <About />

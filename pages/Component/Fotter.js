@@ -18,15 +18,15 @@ const Fotter = () => {
 
             <div className={styles.Fotter}>
 
-                <div className={styles.fotp}>
+                <div className={styles.p1}>
                 Thanks For Visiting....!
                 <br/>
                 
                 </div>
                 <div className={styles.Icons}>
                     <div className={styles.info}>
-                    <p className={styles.fotp}> Follow Us For More...</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed magnam aspernatur, minus est debitis accusantium itaque nulla voluptate, maxime et repellat, delectus labore cumque aperiam unde maiores! Unde, accusamus illum!</p>
+                    <p className={styles.p1}> Follow Us For More...</p>
+                        <p className={styles.p2} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed magnam aspernatur, minus est debitis accusantium itaque nulla voluptate, maxime et repellat, delectus labore cumque aperiam unde maiores! Unde, accusamus illum!</p>
                     </div>
                     <div className={styles.FotterC}>
                         <div className={styles.icon}>
@@ -65,7 +65,7 @@ const Fotter = () => {
                 </div>
 
                 <hr></hr>
-                <div className={styles.FotterB}>
+                <div className={styles.p3}>
                     {text1}
                     <a className={styles.textwhite} href="https://ChandrakantGawali.com/"> {text2} </a>
                     {text3}
