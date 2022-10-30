@@ -22,7 +22,7 @@
   .Input {
     border: 1px solid #dbdbdb;
     border-radius: 2px;
-    color: #333;
+    /* color: #333; */
     margin: 1%;
     height: 42px;
     padding: 0 0 0 20px;
@@ -39,7 +39,7 @@
   .textarea {
     border: 1px solid #dbdbdb;
     border-radius: 2px;
-    color: #333;
+    /* color: #333; */
     padding: 12px 0 0 20px;
     width: 100%;
     outline: 0;
@@ -187,6 +187,9 @@ text-transform: capitalize;
   line-height: 30px;
   padding: 0 5%;
   font-size: smaller;
+}
+.heading{
+  margin-top: 20%;
 }
 }
 @media only screen and (max-width: 350px) {

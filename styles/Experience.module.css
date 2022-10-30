@@ -302,10 +302,9 @@
     .ppp3{ display: block;
         font-size: x-small;
     }
-    /* .Development{
-        margin: 2%;
-        padding: 1%;
-    } */
+    .body{
+        margin-top: 15%;
+    }
     .Project{
         display: block;
       

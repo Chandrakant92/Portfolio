@@ -40,3 +40,16 @@
     background-color: brown;
     position: relative;
 }
+
+@media only screen and (max-width: 980px) {
+   .nava{font-size: medium;}
+
+}
+@media only screen and (max-width: 450px) {
+  .nava{font-size: small;}
+
+}
+@media only screen and (max-width: 350px) {
+ .nava{ font-size: xx-small;}
+
+}
