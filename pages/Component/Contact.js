@@ -38,15 +38,16 @@ const Aboutt = () => {
                                     <div className={styles.getFormInnerText}>
                                         <p className={styles.p3}>Get In Touch</p>
                                     </div>
-                                    <form action="#">
+                                    <form action="https://formspree.io/f/xwkzajzy"
+                                        method="POST">
                                         <div>
-                                            <input className={styles.Input} type="text" placeholder="First Name" />
+                                            <input className={styles.Input} type="text" placeholder="First Name" name="name" />
                                             <input className={styles.Input} type="text" placeholder="Last Name" />
-                                            <input className={styles.Input} type="email" placeholder="Email" />
+                                            <input className={styles.Input} type="email" placeholder="Email" name="email" />
                                             <input className={styles.Input} type="tel" placeholder="Phone/Skype" />
                                         </div>
                                         <div className={styles.gridFull}>
-                                            <textarea className={styles.textarea} placeholder="Write Something..!" cols="30" rows="10"></textarea>
+                                            <textarea className={styles.textarea} placeholder="Write Something..!" cols="30" rows="10" name="message"></textarea>
                                             <input className={styles.Submit} type="submit" value="Submit" onClick={clickMe} />
                                         </div>
                                     </form>

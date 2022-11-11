@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../../styles/About.module.css'
 import Image from 'next/image'
 import Pic2 from '../../assets/xabout-us.png.pagespeed.ic.nAUE9eqUQI.jpg'
-// import pdf from '../../assets/ChandrakantGawaliResume.pdf'
+// import pdf from '../../assets/ChandrakantGawali Resume_pages-to-jpg-0001.jpg'
 
 const About = () => {
   return (
@@ -38,7 +38,7 @@ const About = () => {
               I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their device.
               <br />
               I construct many Web-Application as well as Mobile Application from the scratch. That are helpful to society along with user-friendly interface.</p>
-            <p className={styles.button2} >DOWANLOAD CV</p>
+            <p className={styles.button2} > <a href="../../assets/resume.jpg" class="btn" download="Chandrakant'sResume.pdf">DOWNLOAD MY CV</a></p>
           </div>
         </div>
 
