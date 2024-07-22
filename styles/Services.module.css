@@ -5,6 +5,16 @@
 .heading{
     margin: 3%;
 }
+.myimg {
+    width: 100%;
+    height: 200px;
+    transition: filter 0.3s ease-in-out;
+    filter: none; /* Apply a grayscale filter to the images */
+}
+
+.myimg:hover {
+    filter: drop-shadow(0 0 10px rgba(0, 123, 255, 0.7)); /* Remove filter on hover */
+}
 .p1{
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -30,22 +40,32 @@
     display: flex;
     color: #05364d;
     justify-content: center;
+    /* flex-wrap: wrap; */
 }
 .container div{
     margin: 2%;
-    padding: 60px 30px;
     text-align: center;
     background: #f8faff;
     box-shadow: 0 0 20px 6px #090b6f85;
 }
 .box{
   /* border: solid; */
+  flex: 1 1 30%; /* Set box to take up about 30% of the container */
+  max-width: 50%;
+  min-width: 250px; /* Set a minimum width for smaller screens */
+  /* height: 400px; */
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
   padding: 5%;
   transition: all .4s ease 0s;
+  border-radius: 10px;
 }
 .pp1{
-    font-size: xx-large;
-    font-size: 20px;
+    font-size: x-large;
     font-weight: 500;
     margin-bottom: 20px;
 }
@@ -58,11 +78,13 @@
     text-transform: uppercase;
     /* color: #05364d; */
     display: inline-block;
-    position: relative;
+    /* position: relative; */
 
    }
+
+
 .box:hover{
-    background-color: #9b10d7;
+    background-color: #8300ab;
     color: white;
 }
 
@@ -109,13 +131,13 @@
         font-size: smaller;
     }
     .pp1{
-        font-size: medium;
+        font-size:small;
     }
     .pp2{
-        font-size: small;
+        font-size: x-small;
     }
     .pp3{
-        font-size: small;
+        font-size: x-small;
     }
     .Services{
         margin-top: 20%;

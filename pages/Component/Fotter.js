@@ -19,14 +19,14 @@ const Fotter = () => {
             <div className={styles.Fotter}>
 
                 <div className={styles.p1}>
-                Thanks For Visiting....!
+                 😊 Thanks For Visiting....!! 😊
                 <br/>
                 
                 </div>
                 <div className={styles.Icons}>
                     <div className={styles.info}>
                     <p className={styles.p1}> Follow Us For More...</p>
-                        <p className={styles.p2} >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed magnam aspernatur, minus est debitis accusantium itaque nulla voluptate, maxime et repellat, delectus labore cumque aperiam unde maiores! Unde, accusamus illum!</p>
+                        <p className={styles.p2} >Need assistance or have a question? Our team is here to help! Connect with us on social media to stay updated with our latest news and offerings</p>
                     </div>
                     <div className={styles.FotterC}>
                         <div className={styles.icon}>

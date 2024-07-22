@@ -1,16 +1,22 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
-import Pic1 from '../assets/xhome-right.png.pagespeed.ic.F5fc5uJEZ3.jpg'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import Link from "next/link";
+import Pic1 from "../assets/xhome-right.png.pagespeed.ic.F5fc5uJEZ3.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faYoutube, faLinkedin, faGithub, faTwitter, faFacebook, faInstagram, faFacebookMessenger } from '@fortawesome/free-brands-svg-icons';
-import About from './Component/About'
-import Services from './Component/Services'
-import Experience from './Component/Experience'
-import Contact from './Component/Contact'
-
-
+import {
+  faYoutube,
+  faLinkedin,
+  faGithub,
+  faTwitter,
+  faFacebook,
+  faInstagram,
+  faFacebookMessenger,
+} from "@fortawesome/free-brands-svg-icons";
+import About from "./Component/About";
+import Services from "./Component/Services";
+import Experience from "./Component/Experience";
+import Contact from "./Component/Contact";
 
 export default function Home() {
   return (
@@ -25,90 +31,114 @@ export default function Home() {
         <div className={styles.intro}>
           <div className={styles.image1}>
             <div className={styles.introMin}>
-            <p className={styles.p1}>HEY THERE..!</p>
-          <p className={styles.p2}>I AM CHANDRAKANT</p>
-          <p className={styles.p3}>Computer Programer & Software Developer </p>
+              <p className={styles.p1}>HEY THERE..!</p>
+              <p className={styles.p2}>I AM CHANDRAKANT</p>
+              <p className={styles.p3}>
+                Computer Programer & Software Developer{" "}
+              </p>
             </div>
             <div>
-
-            <Image
-              src={Pic1}
-              alt="Picture of the Owner"
+              <Image
+                style={{
+                  filter: "drop-shadow(0 0 10px #ad23f7)",
+                }}
+                src={Pic1}
+                alt="Picture of the Owner"
               />
-              </div>
+            </div>
           </div>
           <div className={styles.introMax}>
-          <p className={styles.p1}>HEY THERE..!</p>
-          <p className={styles.p2}>I AM CHANDRAKANT</p>
-          <p className={styles.p3}>Computer Programer & Software Developer </p>
+            <p className={styles.p1}>HEY THERE..!</p>
+            <p className={styles.p2}>I AM CHANDRAKANT</p>
+            <p className={styles.p3}>
+              Computer Programer & Software Developer{" "}
+            </p>
           </div>
           <div className={styles.Icons}>
             <div className={styles.icon}>
-              <a href="https://www.instagram.com/" rel="noreferrer" target="_blank">
-                <FontAwesomeIcon className={styles.FontAwesomeIcon}
-                  icon={faInstagram}
-                // style={{  color: "red" }}
-                />
-              </a>
-            </div>
-            <div className={styles.icon}>
-              <a href="https://twitter.com/Chandra17254306" rel="noreferrer" target="_blank">
-                <FontAwesomeIcon className={styles.FontAwesomeIcon}
-                  icon={faTwitter}
-                // style={{  color: "Blue" }}
-                />
-              </a>
-            </div>
-            <div className={styles.icon}>
-              <a href="https://www.facebook.com/" rel="noreferrer" target="_blank">
-                <FontAwesomeIcon className={styles.FontAwesomeIcon}
-                  icon={faFacebook}
-                // style={{  color: "blue" }}
-                />
-              </a>
-            </div>
-            <div className={styles.icon}>
-              <a href="https://www.linkedin.com/" rel="noreferrer" target="_blank">
-                <FontAwesomeIcon className={styles.FontAwesomeIcon}
+              <a
+                href="https://www.linkedin.com/in/chandrakant-gawalii/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  className={styles.FontAwesomeIcon}
                   icon={faLinkedin}
-                //  style={{  color: "blue" }}
+                  //  style={{  color: "blue" }}
+                />
+              </a>
+            </div>
+            <div className={styles.icon}>
+              <a
+                href="https://github.com/Chandrakant92"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  className={styles.FontAwesomeIcon}
+                  icon={faGithub}
+                  // style={{  color: "blue" }}
+                />
+              </a>
+            </div>
+
+            <div className={styles.icon}>
+              <a
+                href="https://www.instagram.com/chandrakant._92/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  className={styles.FontAwesomeIcon}
+                  icon={faInstagram}
+                  // style={{  color: "red" }}
+                />
+              </a>
+            </div>
+            <div className={styles.icon}>
+              <a
+                href="https://twitter.com/Chandra17254306"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  className={styles.FontAwesomeIcon}
+                  icon={faTwitter}
+                  // style={{  color: "Blue" }}
                 />
               </a>
             </div>
           </div>
-          <div className={styles.button1} href="../Component/About.js">See more About me
+          <div className={styles.button1} to="../Component/About.js">
+            See more About me
           </div>
         </div>
 
-        <div>
-        </div>
+        <div></div>
 
-
-       <br/>
-       <br/>
+        {/* <br /> */}
+        {/* <br /> */}
         <div className={styles.box}>
           {/* <div></div> */}
-         <div className={styles.box1}>
-         <p className={styles.point}>EXPLORE </p>
+          <div className={styles.box1}>
+            <p className={styles.point}>EXPLORE </p>
           </div>
-         <div className={styles.box1}>
-         <p className={styles.point}> LEARN</p>
-         </div>
-         <div className={styles.box1}>
-         <p className={styles.point}>ADAPT</p>
-         </div>
+          <div className={styles.box1}>
+            <p className={styles.point}> LEARN</p>
+          </div>
+          <div className={styles.box1}>
+            <p className={styles.point}>ADAPT</p>
+          </div>
         </div>
-     <br/>
-     <br/>
-     <br/>
-       
+        <br />
+        <br />
+        <br />
       </div>
 
       <About />
       <Services />
       <Experience />
       <Contact />
-
     </div>
-  )
+  );
 }
